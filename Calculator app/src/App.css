@@ -1,0 +1,25 @@
+.divider{
+    height:8vh;
+    width: 12vh;   /*   ctrl+Enter for swith to below row */
+    border: 2px solid black; /*   hold alt for multi cursor */
+    margin: 10px;      /*   ctrl + mousewheel for zoom */
+ text-align: center;
+ padding-top: 1px;
+}
+.inputText{
+  margin-top: 40px;
+  text-align-last: right;
+   padding-right: 5px;
+}
+@media (max-width:768px) {
+   .divider{
+      width: 9vh;
+   }
+   .inputText{
+      width: 44vh;
+   }
+   h1{
+      margin-top: 62px;
+   }
+}
+/*sm:w-1/2, md:w-[10vh] etc -> for media query in tailwind css*/
